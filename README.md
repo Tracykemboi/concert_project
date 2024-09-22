@@ -51,7 +51,19 @@ python main.py
 This will create sample data and demonstrate the functionality of the system.
 
 ## File Structure
-
+concert_project/
+│
+├── alembic/
+│   ├── versions/
+│   └── env.py
+│
+├── venv/  (This should be in your .gitignore)
+│
+├── alembic.ini
+├── main.py
+├── models.py
+├── concert.db
+└── README.md
 ### models.py
 
 This file contains the SQLAlchemy ORM models for the application. It defines three main classes:
